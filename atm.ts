@@ -4,7 +4,7 @@ import chalk from "chalk";
 
 let mypin = 246810;
 let mybalance = 50000;
-
+console.log('your pin is 246810');
 let pin = await inquirer.prompt([
   {
     name: "pinCode",
